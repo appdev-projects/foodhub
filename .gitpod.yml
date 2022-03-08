@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-foodhub-hotfix
+image: patrickmckernin/foodhub2022winter
 
 tasks:
   - init: bin/setup
@@ -7,13 +7,10 @@ ports:
     onOpen: open-preview
   - port: 9515
     onOpen: ignore
-  - port: 9514
-    onOpen: ignore
+
 
 vscode:
   extensions:
-    - shd101wyy.markdown-preview-enhanced
     - vortizhe.simple-ruby-erb
-    - CraigMaslowski.erb
-    - Vense.rails-snippets
-    - wingrunr21.vscode-ruby
+    - mbessey.vscode-rufo
+    - aliariff.vscode-erb-beautify
